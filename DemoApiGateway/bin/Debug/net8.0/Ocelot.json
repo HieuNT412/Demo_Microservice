@@ -1,0 +1,40 @@
+{
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/api/customer/{username}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5116
+          }
+        ],
+        "UpstreamPathTemplate": "/apigateway/CustomerService/{username}",
+        "UpstreamHttpMethod": [ "GET", "PUT", "DELETE"]
+      },
+      {
+        "DownstreamPathTemplate": "/api/Customer",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5116
+          }
+        ],
+        "UpstreamPathTemplate": "/apigateway/CustomerService",
+        "UpstreamHttpMethod": [ "GET", "PUT", "POST","DELETE"]
+      },
+      {
+        "DownstreamPathTemplate": "/api/Product",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5206
+          }
+        ],
+        "UpstreamPathTemplate": "/apigateway/ProductService",
+        "UpstreamHttpMethod": [ "GET", "PUT", "POST","DELETE"]
+      }
+    ]
+  }

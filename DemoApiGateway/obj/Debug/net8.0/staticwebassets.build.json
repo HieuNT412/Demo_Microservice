@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8m3EITFuzi/kaYNGXajyeiBwtdgPfcRcap7P/qqvTw4=",
+  "Source": "DemoApiGateway",
+  "BasePath": "_content/DemoApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

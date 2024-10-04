@@ -134,3 +134,4 @@ E:\TERM 8\PRN231\Demo\02102024\DemoApi\obj\Debug\net8.0\refint\DemoApi.dll
 E:\TERM 8\PRN231\Demo\02102024\DemoApi\obj\Debug\net8.0\DemoApi.pdb
 E:\TERM 8\PRN231\Demo\02102024\DemoApi\obj\Debug\net8.0\DemoApi.genruntimeconfig.cache
 E:\TERM 8\PRN231\Demo\02102024\DemoApi\obj\Debug\net8.0\ref\DemoApi.dll
+E:\TERM 8\PRN231\Demo\02102024\DemoApi\obj\Debug\net8.0\DemoApi.sourcelink.json

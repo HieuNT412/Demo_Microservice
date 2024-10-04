@@ -12,7 +12,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(
     options=> options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(80); // Lắng nghe tất cả địa chỉ IP trên cổng 80
+});
 
 var app = builder.Build();
 
